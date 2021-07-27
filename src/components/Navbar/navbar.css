@@ -1,0 +1,16 @@
+.navbarContainer{
+    padding: 16px;
+    background-color: rgb(48, 150, 197);
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    margin-right: 2rem;
+}
+
+.link:last-child{
+    margin-right: 0;
+}

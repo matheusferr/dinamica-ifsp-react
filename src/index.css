@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  display: flex;
+  font-family: Roboto;
+}
+
+#root, main{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+main{    
+  align-items: center;
+  justify-content: center;
+}
